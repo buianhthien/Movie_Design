@@ -1,15 +1,1523 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <header>
-        <nav>
-            
-        </nav>
-    </header>
-</body>
+    <link rel="stylesheet" href="../../static/css/style1.css" />
+    <!-- FontAwesome 6.2.0 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- (Optional) Use CSS or JS implementation -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+      integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <img
+        src="../../static/images/Screenshot_2025-04-26_194412-removebg-preview.png"
+        alt=""
+      />
+      <ul class="category">
+        <li><a href="">Phim bộ</a></li>
+        <li><a href="">Phim lẻ</a></li>
+        <li>
+          <a href="">Thể loại</a>
+          <ul class="type">
+            <li><a href="">Kinh dị</a></li>
+            <li><a href="">Hành động</a></li>
+            <li><a href="">Hài hước</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Quốc gia</a>
+          <ul class="country">
+            <li><a href="">Trung Quốc</a></li>
+            <li><a href="">Hàn Quốc</a></li>
+            <li><a href="">Mỹ</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <form action="">
+        <input type="text" placeholder="Tìm kiếm" />
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+
+      <div class="user">
+        <a href="">
+          <i class="fa-solid fa-clock-rotate-left"></i> <span>History </span></a
+        >
+
+        <a href=""
+          ><i class="fa-solid fa-earth-americas"></i> <span>Language </span></a
+        >
+
+        <a href=""><i class="fa-solid fa-user"></i> <span>Me </span></a>
+
+        <a href=""><i class="fa-solid fa-moon"></i> <span>Night </span></a>
+      </div>
+
+      <div>
+        <a href="">
+          <button>App</button>
+        </a>
+        <a href="">
+          <button>VIP</button>
+        </a>
+      </div>
+    </nav>
+    <div class="banner">
+      <div>
+        <h1>Hoài Thủy Trúc Đình</h1>
+        <div>
+          <span>Free</span>
+          <span>High Popular</span>
+          <span>Top1</span>
+        </div>
+        <div>
+          <span
+            ><i class="fa-solid fa-star" style="color: #fdca31"></i>9.3</span
+          >
+          <span>2012</span> <span>T18</span>
+          <span>30 Tập</span>
+        </div>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ratione
+          quas porro obcaecati quae blanditiis omnis iusto deleniti tenetur.
+          Dignissimos magni exercitationem quidem autem perferendis unde
+          expedita cumque, molestiae facilis.
+        </p>
+        <div class="option">
+          <a href="">
+            <i class="fa-solid fa-play"></i>
+          </a>
+          <a href="">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+        </div>
+      </div>
+      <div class="gradient-bg"></div>
+
+      <div class="film-hot">
+        <h2>Đề xuất hot</h2>
+        <div>
+          <div class="left">
+            <a href=""><i class="fa-solid fa-chevron-left"></i></a>
+          </div>
+          <section class="film-hot-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </section>
+          <!-- <a href="">
+            <div class="moive-card">
+              <img src="../../static/images/download.jpg" alt="" />
+              <h3>Sky Fall</h3>
+              <span
+                ><i class="fa-solid fa-star" style="color: #fdca31"></i>9.3 |
+                Hàn Quốc | 2013</span
+              >
+              <p><span>Thể loại: </span>Hành động, Kinh dị</p>
+
+              <p>
+                <span>Mô tả: </span>Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit.
+              </p>
+              <span>xem Thêm</span>
+            </div>
+          </a> -->
+          <section class="film-hot-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </section>
+          <section class="film-hot-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </section>
+          <section class="film-hot-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </section>
+          <section class="film-hot-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </section>
+          <section class="film-hot-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </section>
+          <div class="right">
+            <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main class="container">
+      <div class="xem-tiep">
+        <h2>Xem tiếp</h2>
+        <section>
+          <div>
+            <a href="">
+              <img src="../../static/images/R.jpg" alt="" />
+              <div class="bg-xemtiep">
+                <a href="">
+                  <i class="fa-solid fa-play"></i>
+                </a>
+              </div>
+              <a href=""><div class="history-bar"></div></a>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+
+          <div>
+            <a href="">
+              <img src="../../static/images/R.jpg" alt="" />
+              <div class="bg-xemtiep">
+                <a href="">
+                  <i class="fa-solid fa-play"></i>
+                </a>
+              </div>
+              <a href=""><div class="history-bar"></div></a>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div>
+            <a href="">
+              <img src="../../static/images/R.jpg" alt="" />
+              <div class="bg-xemtiep">
+                <a href="">
+                  <i class="fa-solid fa-play"></i>
+                </a>
+              </div>
+              <a href=""><div class="history-bar"></div></a>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div>
+            <a href="">
+              <img src="../../static/images/R.jpg" alt="" />
+              <div class="bg-xemtiep">
+                <a href="">
+                  <i class="fa-solid fa-play"></i>
+                </a>
+              </div>
+              <a href=""><div class="history-bar"></div></a>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+        </section>
+      </div>
+      <div class="phim-group">
+        <h2>Lựa chọn hàng đầu dành cho bạn</h2>
+        <div class="left">
+          <a href=""><i class="fa-solid fa-chevron-left"></i></a>
+        </div>
+        <section class="phim-group-content">
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+        </section>
+        <div class="right">
+          <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="phim-group">
+        <h2>Top phim miễn phí</h2>
+        <div class="left">
+          <a href=""><i class="fa-solid fa-chevron-left"></i></a>
+        </div>
+        <section class="phim-group-content">
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+        </section>
+        <div class="right">
+          <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+
+      <div class="phim-group">
+        <h2>Chỉ dành cho VIP</h2>
+        <div class="left">
+          <a href=""><i class="fa-solid fa-chevron-left"></i></a>
+        </div>
+        <section class="phim-group-content">
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+        </section>
+        <div class="right">
+          <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="phim-group">
+        <h2>Phim thuyết minh</h2>
+        <div class="left">
+          <a href=""><i class="fa-solid fa-chevron-left"></i></a>
+        </div>
+        <section class="phim-group-content">
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+        </section>
+        <div class="right">
+          <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="phim-group">
+        <h2>Top thịnh hành</h2>
+        <div class="left">
+          <a href=""><i class="fa-solid fa-chevron-left"></i></a>
+        </div>
+        <section class="phim-group-content">
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+        </section>
+        <div class="right">
+          <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="actor-group">
+        <h2>Diễn viên nổi tiếng</h2>
+        <div class="left">
+          <a href=""><i class="fa-solid fa-chevron-left"></i></a>
+        </div>
+        <section class="actor-group-content">
+          <div class="actor-group-item">
+            <a href="">
+              <img src="../../static/images/luu-diec-phi-464254.jpg" alt="" />
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="actor-group-item">
+            <a href="">
+              <img src="../../static/images/luu-diec-phi-464254.jpg" alt="" />
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="actor-group-item">
+            <a href="">
+              <img src="../../static/images/luu-diec-phi-464254.jpg" alt="" />
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="actor-group-item">
+            <a href="">
+              <img src="../../static/images/luu-diec-phi-464254.jpg" alt="" />
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="actor-group-item">
+            <a href="">
+              <img src="../../static/images/luu-diec-phi-464254.jpg" alt="" />
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="actor-group-item">
+            <a href="">
+              <img src="../../static/images/luu-diec-phi-464254.jpg" alt="" />
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+        </section>
+        <div class="right">
+          <a href=""><i class="fa-solid fa-angle-right"></i></a>
+        </div>
+      </div>
+      <div class="phim-group">
+        <h2>Kinh dị</h2>
+        <div class="left">
+          <a href=""><i class="fa-solid fa-chevron-left"></i></a>
+        </div>
+        <section class="phim-group-content">
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+        </section>
+        <div class="right">
+          <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="phim-group">
+        <h2>Hành động</h2>
+        <div class="left">
+          <a href=""><i class="fa-solid fa-chevron-left"></i></a>
+        </div>
+        <section class="phim-group-content">
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+        </section>
+        <div class="right">
+          <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="phim-group">
+        <h2>Ngôn tình</h2>
+        <div class="left">
+          <a href=""><i class="fa-solid fa-chevron-left"></i></a>
+        </div>
+        <section class="phim-group-content">
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+        </section>
+        <div class="right">
+          <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="phim-group">
+        <h2>Hài hước</h2>
+        <div class="left">
+          <a href=""><i class="fa-solid fa-chevron-left"></i></a>
+        </div>
+        <section class="phim-group-content">
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+        </section>
+        <div class="right">
+          <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="phim-group">
+        <h2>Trinh thám</h2>
+        <div class="left">
+          <a href=""><i class="fa-solid fa-chevron-left"></i></a>
+        </div>
+        <section class="phim-group-content">
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+        </section>
+        <div class="right">
+          <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="phim-group">
+        <h2>Hoạt hình</h2>
+        <div class="left">
+          <a href=""><i class="fa-solid fa-chevron-left"></i></a>
+        </div>
+        <section class="phim-group-content">
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+        </section>
+        <div class="right">
+          <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="phim-group">
+        <h2>Võ thuật</h2>
+        <div class="left">
+          <a href=""><i class="fa-solid fa-chevron-left"></i></a>
+        </div>
+        <section class="phim-group-content">
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+        </section>
+        <div class="right">
+          <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="phim-group">
+        <h2>Thể thao</h2>
+        <div class="left">
+          <a href=""><i class="fa-solid fa-chevron-left"></i></a>
+        </div>
+        <section class="phim-group-content">
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+        </section>
+        <div class="right">
+          <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="phim-group">
+        <h2>Tâm lý</h2>
+        <div class="left">
+          <a href=""><i class="fa-solid fa-chevron-left"></i></a>
+        </div>
+        <section class="phim-group-content">
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+        </section>
+        <div class="right">
+          <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="phim-group">
+        <h2>Học đường</h2>
+        <div class="left">
+          <a href=""><i class="fa-solid fa-chevron-left"></i></a>
+        </div>
+        <section class="phim-group-content">
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+          <div class="phim-group-item">
+            <a href="">
+              <span>Top1</span>
+              <img
+                src="../../static/images/harper-bazaar-phim-ma-kinh-di-thai-lan-5-e1679931106586.jpg"
+                alt=""
+              />
+              <div class="gradient-film"><span>Trọn bộ 30 tập</span></div>
+            </a>
+            <a href=""> SKY FALL</a>
+          </div>
+        </section>
+        <div class="right">
+          <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </main>
+    <div class="footer">
+      <h2>Trải nghiệm trên các thiết bị của T-Movies</h2>
+      <div>
+        <button>Trang web</button>
+        <button>Thiết bị di động</button>
+        <button>TV</button>
+      </div>
+      <hr />
+      <div class="footer-content">
+        <div>
+          <h3>Giới thiệu về chúng tôi</h3>
+          <ul>
+            <li><a href="">Thông tin công ty</a></li>
+            <li><a href="">Dịch vụ</a></li>
+            <li><a href="">Cách xem</a></li>
+            <li><a href="">Nhà đầu tư</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Hợp tác</h3>
+          <ul>
+            <li><a href="">Thông tin công ty</a></li>
+            <li><a href="">Dịch vụ</a></li>
+            <li><a href="">Cách xem</a></li>
+            <li><a href="">Nhà đầu tư</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Hỗ trợ & giúp đỡ</h3>
+          <ul>
+            <li><a href="">Thông tin công ty</a></li>
+            <li><a href="">Dịch vụ</a></li>
+            <li><a href="">Cách xem</a></li>
+            <li><a href="">Nhà đầu tư</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Điều khoản & Chính sách</h3>
+          <ul>
+            <li><a href="">Thông tin công ty</a></li>
+            <li><a href="">Dịch vụ</a></li>
+            <li><a href="">Cách xem</a></li>
+            <li><a href="">Nhà đầu tư</a></li>
+          </ul>
+        </div>
+      </div>
+      <cite>&copy; Copyright 2025 T-Movies All Rights Reserved</cite>
+      <div>
+        <a href=""> <i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-google"></i></a>
+        <a href=""> <i class="fa-brands fa-telegram"></i></a>
+      </div>
+    </div>
+  </body>
 </html>
