@@ -1,0 +1,200 @@
+/* BANNER */
+.banner {
+  width: 100%;
+  height: 800px;
+  background: url("../images/wNSLw756U5JQSpG6POYxHKL2KDH.webp") center/cover
+    no-repeat;
+  position: relative;
+  color: #fff;
+  margin-bottom: 150px;
+}
+.banner > div:first-child {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  width: 35%;
+  height: 50%;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.banner h1 + div {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+.banner h1 + div span {
+  background-color: #fdca31;
+  padding: 3px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.banner h1 + div + div {
+  margin-top: 20px;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.banner h1 + div + div + p {
+  margin-top: 15px;
+  font-size: 1rem;
+}
+.option {
+  width: 22%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.option a {
+  width: 55px;
+  height: 55px;
+  background-color: #fdca31;
+  color: #000;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.option a:hover {
+  background-color: #fab033;
+}
+.film-hot {
+  width: 90%;
+  height: 50%;
+  position: absolute;
+  top: 600px;
+  left: 5%;
+  z-index: 4;
+  padding: 10px 0;
+}
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+.film-hot > div {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.film-hot-item {
+  width: 15%;
+  position: relative;
+}
+.film-hot-item img {
+  width: 100%;
+  height: 260px;
+  border-radius: 5px;
+}
+.film-hot-item a {
+  margin-top: 5px;
+  font-weight: bold;
+  color: #fff;
+}
+.movie-card {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: -20px;
+  width: 280px;
+  height: 330px;
+  left: -35px;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 10px;
+  z-index: 5;
+  border-radius: 8px;
+  transform: none;
+  transition: all 0.3s linear 0s;
+}
+.movie-card img,
+.phim-group-item .movie-card img {
+  width: 100%;
+  height: 150px;
+}
+.movie-card p {
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+.movie-card p span {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.movie-card p + span {
+  color: #fab033;
+  font-size: 0.7rem;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+/* .movie-card .option{
+  width: 20%;
+  top: 300px;
+
+} */
+/* Khi hover vào section, mới hiện phần .moive-card */
+.film-hot-item:hover .movie-card {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1.1);
+}
+.top1 {
+  background-color: #fdca31;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: right;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 0.7rem;
+}
+.gradient-bg {
+  position: absolute;
+  top: 570px;
+  width: 100%;
+  height: 430px;
+  background: linear-gradient(to bottom, #00000000, #111319, #111319);
+  z-index: 1;
+}
+.gradient-film {
+  width: 100%;
+  position: absolute;
+  bottom: 10%;
+  text-align: start;
+  height: 20%;
+  background: linear-gradient(to bottom, #00000000, #111319);
+  z-index: 4;
+  opacity: 1;
+}
+.gradient-film span,
+.phim-group-item .gradient-film span {
+  padding: 0 10px;
+  background: none;
+  border-radius: 5px;
+  text-align: left;
+  font-size: 0.7rem;
+  position: absolute;
+  top: 39px;
+  left: 0;
+  z-index: 3;
+  opacity: 1;
+}
+.film-hot .left {
+  font-size: 2rem;
+  position: absolute;
+  top: 165px;
+  left: -40px;
+  opacity: 0;
+}
+.film-hot .right {
+  font-size: 2rem;
+  position: absolute;
+  top: 165px;
+  right: -40px;
+  opacity: 0.5;
+  box-sizing: border-box;
+}
