@@ -1,20 +1,17 @@
 package edu.poly.movieproject.Controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import edu.poly.movieproject.Model.Film;
-
-
 
 @Controller
 @RequestMapping("/film")
 public class FilmController {
-    @GetMapping("/list")
-    public String list() {
-        Film film = new Film();
-        return "film/list";
+    @GetMapping("/index")
+    public String index(Model model) {
+        model.addAttribute("view", "user/film");
+        return "Layouts/layout";
     }
 
 }

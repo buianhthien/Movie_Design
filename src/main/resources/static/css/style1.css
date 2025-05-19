@@ -346,7 +346,7 @@ h2 {
   display: grid;
   gap: 10px;
 }
-.xem-tiep {
+.container .xem-tiep {
   width: 100%;
   height: 340px;
   color: #fff;
@@ -358,29 +358,29 @@ h2 {
 
   background: url("../images/gradient.png") center/cover no-repeat;
 }
-.xem-tiep section {
+.container .xem-tiep section {
   width: 100%;
   display: flex;
   justify-content: space-between;
   gap: 30px;
 }
-.control {
+.container .control {
   width: 100%;
   color: #fff;
   position: relative;
   transform: none;
   transition: all 0.3s linear 0s;
 }
-.control:hover {
+.container .control:hover {
   transform: scale(1.1);
   color: #fdca31;
 }
-.control img {
+.container .control img {
   width: 100%;
   height: 200px;
   border-radius: 5px;
 }
-.bg-xemtiep {
+.container .bg-xemtiep {
   height: 20%;
   background: linear-gradient(to bottom, #00000000, #111319);
   position: absolute;
@@ -388,7 +388,7 @@ h2 {
   right: 0;
   z-index: 1;
 }
-.bg-xemtiep a {
+.container .bg-xemtiep a {
   width: 30px;
   height: 30px;
   padding: 0 10px;
@@ -403,10 +403,10 @@ h2 {
   align-items: center;
   z-index: 3;
 }
-.bg-xemtiep a:hover {
+.container .bg-xemtiep a:hover {
   background-color: #fab033;
 }
-.history-bar {
+.container .history-bar {
   width: 100%;
   height: 5px;
   background-color: #fdca31;
@@ -414,7 +414,7 @@ h2 {
   bottom: 30px;
 }
 
-.phim-group {
+.container .phim-group {
   width: 100%;
   height: 400px;
   color: #fff;
@@ -425,31 +425,31 @@ h2 {
   cursor: pointer;
   position: relative;
 }
-.phim-group-content {
-  width: 100%;  
+.container .phim-group-content {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   margin-top: 45px;
 }
-.phim-group-item {
+.container .phim-group-item {
   width: 15%;
   color: #fff;
   box-sizing: border-box;
   position: relative;
 }
-.phim-group-item img {
+.container .phim-group-item img {
   width: 100%;
   height: 260px;
   border-radius: 5px;
 }
-.left {
+.container .left {
   font-size: 2rem;
   position: absolute;
   top: 165px;
   left: -40px;
   opacity: 0;
 }
-.right {
+.container .right {
   font-size: 2rem;
   position: absolute;
   top: 165px;
@@ -457,13 +457,13 @@ h2 {
   opacity: 0.5;
   box-sizing: border-box;
 }
-.phim-group-item:hover .movie-card {
+.container .phim-group-item:hover .movie-card {
   opacity: 1;
   visibility: visible;
   transform: scale(1.1);
 }
 
-.actor-group {
+.container .actor-group {
   width: 100%;
   height: 330px;
   color: #fff;
@@ -474,13 +474,13 @@ h2 {
   cursor: pointer;
   position: relative;
 }
-.actor-group-content {
+.container .actor-group-content {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.actor-group-item {
+.container .actor-group-item {
   width: 15%;
   height: 100%;
   color: #fff;
@@ -489,15 +489,15 @@ h2 {
   transform: none;
 }
 
-.actor-group-item:hover img {
+.container .actor-group-item:hover img {
   border: 3px solid #fab033;
   transition: all 0.3s linear 0s;
 }
-.actor-group-item:hover a {
+.container .actor-group-item:hover a {
   color: #fab033;
   transition: all 0.3s linear 0s;
 }
-.actor-group-item img {
+.container .actor-group-item img {
   width: 100%;
   height: 205px;
   border-radius: 100%;
@@ -505,7 +505,6 @@ h2 {
   margin-bottom: 5px;
   transform: none;
 }
-
 
 /* FOOTER */
 /* .footer {

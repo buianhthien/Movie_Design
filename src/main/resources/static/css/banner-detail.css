@@ -1,5 +1,5 @@
 /* BANNER */
-.banner {
+.banner-detail {
   width: 100%;
   height: 500px;
   background: url("../images/phim-co-trang-phu-dao-hoang-hau-scaled.jpg")
@@ -8,7 +8,7 @@
   color: #fff;
   margin-bottom: 150px;
 }
-.banner .bg-content + div {
+.banner-detail .bg-content + div {
   position: absolute;
   top: 25%;
   left: 5%;
@@ -16,7 +16,7 @@
   height: 50%;
   z-index: 1;
 }
-.bg-content {
+.banner-detail .bg-content {
   position: absolute;
   background: linear-gradient(to left, #00000000, #111319, #111319);
   top: 0;
@@ -24,39 +24,38 @@
   width: 50%;
   height: 100%;
 }
-h1 {
+.banner-detail h1 {
   font-size: 3rem;
   font-weight: bold;
 }
-.banner h1 + div {
+.banner-detail h1 + div {
   margin-top: 10px;
   font-size: 1rem;
 }
-.banner h1 + div span {
+.banner-detail h1 + div span {
   background-color: #fdca31;
   padding: 3px 10px;
   border-radius: 5px;
   font-weight: bold;
 }
-.banner h1 + div + div {
+.banner-detail h1 + div + div {
   margin-top: 20px;
   width: 40%;
   display: flex;
   justify-content: space-between;
   font-weight: bold;
-  
 }
-.banner h1 + div + div + p {
+.banner-detail h1 + div + div + p {
   margin-top: 15px;
   font-size: 1rem;
 }
-.option {
+.banner-detail .option {
   width: 100%;
   margin-top: 20px;
   display: flex;
   gap: 10px;
 }
-.option a {
+.banner-detail .option a {
   width: 25%;
   height: 40px;
   background-color: #fdca31;
@@ -68,14 +67,14 @@ h1 {
   align-items: center;
   justify-content: center;
 }
-.option a i {
+.banner-detail .option a i {
   font-size: 1.2rem;
   padding: 5px;
 }
-.option a:hover {
+.banner-detail .option a:hover {
   background-color: #fab033;
 }
-.gradient-bg {
+.banner-detail .gradient-bg {
   position: absolute;
   top: 450px;
   width: 100%;
