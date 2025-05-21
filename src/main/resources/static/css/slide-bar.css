@@ -1,0 +1,74 @@
+.slide-bar {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  background-color: black;
+}
+.slide-bar > div {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+}
+.slide-bar > div > img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: 2px solid #fdca31;
+}
+.slide-bar > div + a {
+  width: 100%;
+  color: #fdca31;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.slide-bar > div + a button {
+  width: 50%;
+  height: 35px;
+  background-color: #fdca31;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+.slide-bar > div + a button:hover {
+  background-color: #fab033;
+}
+.slide-bar ul {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+.slide-bar ul li {
+  width: 100%;
+  height: 50px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+}
+.slide-bar ul li:hover {
+  background-color: #fdca31;
+  color: black;
+}
+.slide-bar hr {
+  width: 100%;
+  height: 2px;
+  margin: 10px 0;
+}
+.slide-bar hr + a {
+  width: 100%;
+  height: auto;
+  color: #fdca31;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}

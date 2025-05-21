@@ -1,0 +1,93 @@
+.setting-account {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.setting-account-content {
+  width: 100%;
+  height: auto;
+  padding: 25px 70px;
+}
+.setting-account-content > h2 {
+  text-align: center;
+}
+.setting-account-content h3 {
+  margin-top: 30px;
+}
+.setting-account-content hr + h3 + div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  background-color: #1a1c22;
+  padding: 10px;
+  margin-top: 10px;
+  gap: 10px;
+  border-radius: 5px;
+}
+
+.setting-account-content hr + h3 + div img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+.setting-account-content img + div > p:first-child {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.setting-account-content img + div p:first-child + div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.setting-account-content span {
+  font-size: 1rem;
+  color: lightgray;
+  font-weight: bold;
+}
+.setting-account-content hr + h3 + div a {
+  margin-left: auto;
+}
+.setting-account-content a:hover {
+  color: #fdca31;
+}
+.vip {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to right, #fdca31, #fab033);
+  padding: 10px;
+  margin-top: 10px;
+  color: black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.setting-account-content .vip a {
+  width: 100px;
+  height: 35px;
+  background-color: #1a1c22;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.setting-account-content .account-security {
+  width: 100%;
+  height: auto;
+  background-color: #1a1c22;
+  padding: 10px;
+  margin-top: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.setting-account-content .account-security > div {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

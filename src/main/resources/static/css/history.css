@@ -1,0 +1,117 @@
+.history {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.history-container {
+  width: 100%;
+  height: auto;
+  padding: 25px 70px;
+}
+.history-container > h2 {
+  text-align: center;
+}
+.history-container > h2 + div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.history-container > h2 + div a {
+  width: 10%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 1rem;
+  background-color: #fdca31;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.history-container > h2 + div a:hover {
+  background-color: #fab033;
+}
+
+.history-container > h2 + div a:first-child {
+  visibility: hidden;
+}
+
+.history-container .content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 20px;
+}
+.history-container .content-item {
+  width: 23%;
+  height: 200px;
+  margin-top: 10px;
+  border-radius: 5px;
+  position: relative;
+  transform: none;
+  transition: all 0.3s linear 0s;
+  z-index: 3;
+}
+.history-container .content-item:hover {
+  transform: scale(1.1);
+  color: #fdca31;
+}
+.history-container .content-item img {
+  width: 100%;
+  height: 80%;
+  border-radius: 5px;
+}
+.history-container .bg-xemtiep {
+  height: 20%;
+  background: linear-gradient(to bottom, #00000000, #111319);
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+}
+
+.history-container .bg-xemtiep a {
+  width: 30px;
+  height: 30px;
+  padding: 0 10px;
+  background-color: #fdca31;
+  color: #000;
+  border-radius: 100%;
+  font-size: 1rem;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  display: flex;
+  align-items: center;
+}
+.history-container .bg-xemtiep a:hover {
+  background-color: #fab033;
+}
+.history-container .history-bar {
+  width: 100%;
+  height: 5px;
+  background-color: #fdca31;
+  position: absolute;
+  bottom: 40px;
+}
+.history-container ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+.history-container ul li {
+  background-color: #fdca31;
+  padding: 5px 10px;
+  color: #000;
+  border-radius: 5px;
+}
+.history-container ul li:hover {
+  background-color: #fab033;
+}
